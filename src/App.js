@@ -16,7 +16,7 @@ class App extends Component {
      this.setState({selectedFile: event.target.files[0]})
    }
    componentWillMount () {
-      // axios.create({baseURL:'http://slim.bayyu.net/files/upload'});
+      //
    }
    imgocr = () => {
       var self = this;
