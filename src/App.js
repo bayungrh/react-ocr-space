@@ -35,7 +35,7 @@ class App extends Component {
      // let baseurl = ;
      axios({
        method: 'post',
-       url: 'http://slim.bayyu.net/files/upload',
+       url: 'https://slim.bayyu.net/files/upload',
        data: formData,
        config: {
           headers: {'Content-Type': 'multipart/form-data' },

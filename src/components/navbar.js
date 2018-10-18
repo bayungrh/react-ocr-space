@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import ImageSearch from '@material-ui/icons/ImageSearch';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../App.css';
 
 const styles = {
@@ -31,7 +31,8 @@ function ButtonAppBar(props) {
 
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <ImageSearch/>
           </IconButton>
           <Typography variant="h6" color="inherit" className={classes.grow}>
             Image OCR
