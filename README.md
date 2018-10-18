@@ -5,7 +5,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 <img src="./images/capture.png" width="350"/>
 
-#### `App.js`
+#### `src/App.js`
 ```js
 replace value 'api_key' to your own API Key
 ```
