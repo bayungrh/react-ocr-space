@@ -3,6 +3,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+<img src="./images/capture.png" width="350"/>
+
+#### `App.js`
+```js
+replace value 'api_key' to your own API Key
+```
+```js
+replace value 'api_image_upload' to your backend upload URL
+```
+[Get API Key here](https://ocr.space)
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)

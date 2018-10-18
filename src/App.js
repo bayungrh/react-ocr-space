@@ -6,7 +6,8 @@ import Paper from './components/paper';
 class App extends Component {
    state = {
       selectedFile: null,
-      api_key: '43a1c6d81f88957',
+      api_key: 'YOUR_API_KEY',
+      api_image_upload: 'YOUR_BACKEND_UPLOAD_URL',
       imageURL: null,
       textfield:null
    }
@@ -35,7 +36,7 @@ class App extends Component {
      // let baseurl = ;
      axios({
        method: 'post',
-       url: 'https://slim.bayyu.net/files/upload',
+       url: self.state.api_image_upload,
        data: formData,
        config: {
           headers: {'Content-Type': 'multipart/form-data' },
